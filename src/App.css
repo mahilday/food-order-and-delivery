@@ -1,12 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Spartan:200,300,400&display=swap');
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  
+  /* border:1px solid black; */
 }
 header{
   max-width:100%;
   max-height:100vh;
+  font-family: 'Raleway';
 }
+.logo img{
+  width:35%;
+  padding: 20px;
+  
+}
+.navnew{
+ 
+  position: absolute;
+  left:70%;
+  top:0%;
+  
+
+}
+/* .none{
+  display: none;
+} */
+
 header .navigation{
   display:flex;
   flex-direction: row;
@@ -18,7 +39,7 @@ header .navigation{
 nav.hidden{
   display:none;
 }
-header section{
+header .centerpiece{
   position: absolute;
   top:0;
   left:0;
@@ -28,6 +49,57 @@ header section{
   z-index: -1;
   background-position: bottom;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* CENTER PIECE */
 
+.centerpiece .svgimg {
+   position: absolute;
+   left:15%;
+   top:19%;
+   width:40%;
+  
+}
+.centerpiece .writeup{
+  position: relative;
+  line-height:7vh;
+  top:5%;
+  left:0%;
+  width:50%;
+  height: 30%;
+  color:white;
+  text-align: center;
+
+}
+.writeup span {
+  color:#EC4545;
+}
+.writeup h1{
+  font-size: 35px;
+  line-height: 7vh;
+  font-family: 'Spartan', sans-serif !important;
+
+}
+.writeup p{
+  font-size: 22px;
+  line-height: 5vh;
+  font-weight: 300;
+  margin-top: 1%;
+  font-family: 'Spartan', sans-serif !important;
+  color:e5e5e5
+}
+.writeup input{
+  background: linear-gradient(180deg, #C81B1B 0%, #7E1F1F 100%);
+  border-radius: 10px;
+  width:20%;
+  height:25%;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  border:none;
+  margin-top: 3%;
+  /* box-shadow: 1px 1px 10px #ffffff ; */
+}
 

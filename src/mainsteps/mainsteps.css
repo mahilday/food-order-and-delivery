@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|EB+Garamond|Pacifico&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+.mainsteps{
+    width:100%;
+    margin:45% auto;
+    text-align: center;
+}
+.head{
+    width:80%;
+    margin:8% auto;
+   font-family: 'EB Garamond', serif;
+   font-size: 25px;
+   color: #200808da;
+}
+
+.mainsteps .imp{
+    display:flex;
+    text-align: center;
+    font-family: 'Raleway';
+    width:100%;
+    margin:0% auto;
+}
+.imp .wrapperone{
+    margin:0% 7%;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+    height:57vh;
+    padding: 2%;
+    width:40vw;
+    border-radius:10px;
+}
+.wrapperone img, .wrapperone p{
+    margin-bottom: 10%;
+    margin-top:15%;
+}
+.wrapperone button{
+    width:50%;
+    height:10%;
+    background:radial-gradient(farthest-side at 50% 65%,#C81B1B,#7E1F1F );
+    border:none;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+

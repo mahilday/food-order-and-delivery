@@ -66,3 +66,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+0%{
+    
+    stroke: linear-gradient(to bottom right,#fff, #EC4545, #e4e4e4,#333333, #deaffd) ;
+  }
+  30%{
+    
+    stroke:linear-gradient(to bottom left, rgb(31, 88, 126),#fefefe, #7E1F1F);
+  }
+  50%{
+   
+    stroke: linear-gradient(to top left,#f4e526, rgb(201, 24, 245), #C81B1B, #333333);
+  }
+  70%{
+   
+    stroke: linear-gradient(to bottom,rgb(131, 49, 207), #fefefe, #EC4545,#333333);
+  }
+  100%{
+   stroke: #ffffff;
+  }
+}
